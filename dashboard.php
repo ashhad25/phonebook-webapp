@@ -55,7 +55,7 @@
     <body style="background-image:url('image.jpg') ; background-position: center; background-size: cover;">
       <!-- header start     -->
       <div class="container-fluid d-flex justify-content-center bg-dark">
-          <a href="dashboard.php" class="navbar-brand text-light me-5 p-0 mt-2">Phone Directory</a>
+          <a href="dashboard.php" class="navbar-brand text-light me-5 p-0 mt-2 fs-2">Phone Directory</a>
       </div>
       <!-- header end     -->
       <!-- navbar start -->
@@ -82,14 +82,14 @@
                   <a class="nav-link" href="add_user.php">Add new</a>
                 </li>
                 <li class="nav-item ms-2">
-                  <a class="nav-link" href="view_user2.php">View all</a><?php echo '<p style="background: grey; float: right; margin-top: -33px; width: 40%; border-radius: 25px; color: black; padding: 1px 8px; border: none; margin-right: -20px;">'.$row.'</p>' ;?>
+                  <a class="nav-link" href="view_user2.php">View all</a><?php echo '<p style="background: grey; float: right; margin-top: -33px; width: 40%; border-radius: 25px; color: black; padding: 1px 10px; border: none; margin-right: -22px;">'.$row.'</p>' ;?>
                 </li>
                 <li class="nav-item ms-4">
                   <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
               </ul>
               <form class="d-flex" action="dashboard.php" method="POST">
-              <select style="width: 25px; border: 3px solid grey; margin-right: 5px; border-radius: 25px;" name="selectitem">
+              <select style="width: 25px; border: 3px solid grey; margin-right: 5px; border-radius: 25px; padding-left: 21px;" name="selectitem">
                 <option></option>
                 <option value="contact_id">ID</option>
                 <option value="contact_name">Name</option>
@@ -105,7 +105,7 @@
         </nav>
     
 
-  <p style="border: 5px solid black; width: 500px; height: 300px; margin-top: 120px; margin-left: 450px; border-radius: 150px; text-align: center; padding-top: 120px; color: white; font-size: 20px;">Total users in your contacts<br> <?php echo '<span>'. $row.'</span>';?></p>
+  <p style="border: 5px solid black; width: 500px; height: 300px; margin-top: 120px; margin-left: 576px; border-radius: 150px; text-align: center; padding-top: 120px; color: white; font-size: 20px;">Total users in your contacts<br> <?php echo '<span>'. $row.'</span>';?></p>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
